@@ -3,6 +3,7 @@ import 'package:weather_app/services/local_storage.dart';
 import 'package:weather_app/services/service_locator.dart';
 import 'package:weather_app/services/web_api.dart';
 
+
 class HomePageManager {
   // 1
   HomePageManager({WebApi? webApi, LocalStorage? storage}) {

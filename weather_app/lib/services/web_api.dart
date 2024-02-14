@@ -18,7 +18,7 @@ class FccApi implements WebApi {
     required double latitude,
     required double longitude,
   }) async {
-    final url = Uri.parse('https://fcc-weather-api.glitch.me/api/current'
+    final url = Uri.parse('https://weather-proxy.freecodecamp.rocks/api/current'
         '?lat=$latitude&lon=$longitude');
     final result = await get(url);
     final jsonString = result.body;
