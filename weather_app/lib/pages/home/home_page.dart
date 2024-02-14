@@ -127,7 +127,7 @@ class WeatherWidget extends StatelessWidget {
                 style: textTheme.headlineMedium,
               ),
               Text(
-                'Ulaanbaatar',
+                'Bandung,Indonesia,Dosen Proyek 4',
                 style: textTheme.headlineSmall,
               ),
             ],
