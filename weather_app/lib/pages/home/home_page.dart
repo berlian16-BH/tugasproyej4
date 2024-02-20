@@ -127,7 +127,7 @@ class WeatherWidget extends StatelessWidget {
                 style: textTheme.headlineMedium,
               ),
               Text(
-                'Bandung,Indonesia,Dosen Proyek 4',
+                'Bandung,Claudia Berlian Harli',
                 style: textTheme.headlineSmall,
               ),
             ],
